@@ -12,6 +12,10 @@
 		277AA0DC19C1564200710096 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 277AA0DA19C1564200710096 /* Main.storyboard */; };
 		277AA0DE19C1564200710096 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 277AA0DD19C1564200710096 /* Images.xcassets */; };
 		277AA0EA19C1564300710096 /* DropboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277AA0E919C1564300710096 /* DropboxTests.swift */; };
+		277AA0F419C179D200710096 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277AA0F319C179D200710096 /* CreateAccountViewController.swift */; };
+		277AA0F619C17AFA00710096 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277AA0F519C17AFA00710096 /* SignInViewController.swift */; };
+		277AA0F819C17FC700710096 /* CreateAccountSubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277AA0F719C17FC700710096 /* CreateAccountSubViewController.swift */; };
+		277AA0FA19C17FF000710096 /* SignInSubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277AA0F919C17FF000710096 /* SignInSubViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,10 @@
 		277AA0E319C1564300710096 /* DropboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		277AA0E819C1564300710096 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		277AA0E919C1564300710096 /* DropboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropboxTests.swift; sourceTree = "<group>"; };
+		277AA0F319C179D200710096 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		277AA0F519C17AFA00710096 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		277AA0F719C17FC700710096 /* CreateAccountSubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountSubViewController.swift; sourceTree = "<group>"; };
+		277AA0F919C17FF000710096 /* SignInSubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInSubViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +85,11 @@
 			children = (
 				277AA0D619C1564200710096 /* AppDelegate.swift */,
 				277AA0D819C1564200710096 /* ViewController.swift */,
+				277AA0F319C179D200710096 /* CreateAccountViewController.swift */,
 				277AA0DA19C1564200710096 /* Main.storyboard */,
+				277AA0F919C17FF000710096 /* SignInSubViewController.swift */,
+				277AA0F719C17FC700710096 /* CreateAccountSubViewController.swift */,
+				277AA0F519C17AFA00710096 /* SignInViewController.swift */,
 				277AA0DD19C1564200710096 /* Images.xcassets */,
 				277AA0D419C1564200710096 /* Supporting Files */,
 			);
@@ -208,8 +220,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				277AA0F819C17FC700710096 /* CreateAccountSubViewController.swift in Sources */,
+				277AA0F619C17AFA00710096 /* SignInViewController.swift in Sources */,
+				277AA0F419C179D200710096 /* CreateAccountViewController.swift in Sources */,
 				277AA0D919C1564200710096 /* ViewController.swift in Sources */,
 				277AA0D719C1564200710096 /* AppDelegate.swift in Sources */,
+				277AA0FA19C17FF000710096 /* SignInSubViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
