@@ -1,22 +1,19 @@
 //
-//  CreateAccountSubViewController.swift
+//  TroubleViewController.swift
 //  Dropbox
 //
-//  Created by Kyle Pickering on 9/10/14.
+//  Created by Kyle Pickering on 9/12/14.
 //  Copyright (c) 2014 Kyle Pickering. All rights reserved.
 //
 
 import UIKit
 
-class CreateAccountSubViewController: UIViewController {
+class TroubleViewController: UIViewController {
 
-    @IBOutlet weak var firstNameField: UITextField!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        firstNameField.becomeFirstResponder()
     }
 
     override func didReceiveMemoryWarning() {
@@ -24,13 +21,10 @@ class CreateAccountSubViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func clickBackNav(sender: AnyObject) {
-        navigationController?.popViewControllerAnimated(true)
+    @IBAction func clickCancelButton(sender: AnyObject) {
+        dismissViewControllerAnimated(true, completion: nil)
     }
 
-    @IBAction func onTap(sender: AnyObject) {
-        view.endEditing(true)
-    }
     /*
     // MARK: - Navigation
 

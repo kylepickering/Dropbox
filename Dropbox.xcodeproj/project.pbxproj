@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		271BE9FE19C4DABE00D5986A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271BE9FD19C4DABE00D5986A /* SettingsViewController.swift */; };
 		277AA0D719C1564200710096 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277AA0D619C1564200710096 /* AppDelegate.swift */; };
 		277AA0D919C1564200710096 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277AA0D819C1564200710096 /* ViewController.swift */; };
 		277AA0DC19C1564200710096 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 277AA0DA19C1564200710096 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 		277AA0F619C17AFA00710096 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277AA0F519C17AFA00710096 /* SignInViewController.swift */; };
 		277AA0F819C17FC700710096 /* CreateAccountSubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277AA0F719C17FC700710096 /* CreateAccountSubViewController.swift */; };
 		277AA0FA19C17FF000710096 /* SignInSubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277AA0F919C17FF000710096 /* SignInSubViewController.swift */; };
+		2792633819C2D68E008CC001 /* TroubleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2792633719C2D68E008CC001 /* TroubleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		271BE9FD19C4DABE00D5986A /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		277AA0D119C1564200710096 /* Dropbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dropbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		277AA0D519C1564200710096 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		277AA0D619C1564200710096 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +45,7 @@
 		277AA0F519C17AFA00710096 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		277AA0F719C17FC700710096 /* CreateAccountSubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountSubViewController.swift; sourceTree = "<group>"; };
 		277AA0F919C17FF000710096 /* SignInSubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInSubViewController.swift; sourceTree = "<group>"; };
+		2792633719C2D68E008CC001 /* TroubleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TroubleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,7 @@
 		277AA0C819C1564200710096 = {
 			isa = PBXGroup;
 			children = (
+				271BE9FD19C4DABE00D5986A /* SettingsViewController.swift */,
 				277AA0D319C1564200710096 /* Dropbox */,
 				277AA0E619C1564300710096 /* DropboxTests */,
 				277AA0D219C1564200710096 /* Products */,
@@ -87,6 +92,7 @@
 				277AA0D819C1564200710096 /* ViewController.swift */,
 				277AA0F319C179D200710096 /* CreateAccountViewController.swift */,
 				277AA0DA19C1564200710096 /* Main.storyboard */,
+				2792633719C2D68E008CC001 /* TroubleViewController.swift */,
 				277AA0F919C17FF000710096 /* SignInSubViewController.swift */,
 				277AA0F719C17FC700710096 /* CreateAccountSubViewController.swift */,
 				277AA0F519C17AFA00710096 /* SignInViewController.swift */,
@@ -225,7 +231,9 @@
 				277AA0F419C179D200710096 /* CreateAccountViewController.swift in Sources */,
 				277AA0D919C1564200710096 /* ViewController.swift in Sources */,
 				277AA0D719C1564200710096 /* AppDelegate.swift in Sources */,
+				2792633819C2D68E008CC001 /* TroubleViewController.swift in Sources */,
 				277AA0FA19C17FF000710096 /* SignInSubViewController.swift in Sources */,
+				271BE9FE19C4DABE00D5986A /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +419,7 @@
 				277AA0EF19C1564300710096 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		277AA0F019C1564300710096 /* Build configuration list for PBXNativeTarget "DropboxTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +428,7 @@
 				277AA0F219C1564300710096 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

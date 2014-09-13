@@ -10,10 +10,13 @@ import UIKit
 
 class SignInSubViewController: UIViewController {
 
+    @IBOutlet weak var emailAddressField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        emailAddressField.becomeFirstResponder()
     }
 
     override func didReceiveMemoryWarning() {
@@ -24,11 +27,10 @@ class SignInSubViewController: UIViewController {
     @IBAction func clickBackNav(sender: AnyObject) {
         navigationController?.popViewControllerAnimated(true)
     }
-    
-    @IBAction func clickCancelButton(sender: AnyObject) {
-        dismissViewControllerAnimated(true, completion: nil)
-    }
 
+    @IBAction func onTap(sender: AnyObject) {
+        view.endEditing(true)
+    }
     /*
     // MARK: - Navigation
 

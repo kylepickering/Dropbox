@@ -1,22 +1,24 @@
 //
-//  CreateAccountSubViewController.swift
+//  SettingsViewController.swift
 //  Dropbox
 //
-//  Created by Kyle Pickering on 9/10/14.
+//  Created by Kyle Pickering on 9/13/14.
 //  Copyright (c) 2014 Kyle Pickering. All rights reserved.
 //
 
 import UIKit
 
-class CreateAccountSubViewController: UIViewController {
+class SettingsViewController: UIViewController {
 
-    @IBOutlet weak var firstNameField: UITextField!
+    @IBOutlet weak var settingsScoller: UIScrollView!
+    @IBOutlet weak var settingsImage: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        firstNameField.becomeFirstResponder()
+    
+        settingsScoller.contentSize = CGSizeMake(settingsImage.frame.size.width, settingsImage.frame.size.height)
     }
 
     override func didReceiveMemoryWarning() {
@@ -24,13 +26,10 @@ class CreateAccountSubViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func clickBackNav(sender: AnyObject) {
-        navigationController?.popViewControllerAnimated(true)
+    @IBAction func tapSignOut(sender: AnyObject) {
+        dismissViewControllerAnimated(true, completion: nil)
     }
 
-    @IBAction func onTap(sender: AnyObject) {
-        view.endEditing(true)
-    }
     /*
     // MARK: - Navigation
 
