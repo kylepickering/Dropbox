@@ -1,5 +1,5 @@
 //
-//  SettingsViewController.swift
+//  TermsViewController.swift
 //  Dropbox
 //
 //  Created by Kyle Pickering on 9/13/14.
@@ -8,17 +8,12 @@
 
 import UIKit
 
-class SettingsViewController: UIViewController {
+class TermsViewController: UIViewController {
 
-    @IBOutlet weak var settingsScoller: UIScrollView!
-    @IBOutlet weak var settingsImage: UIImageView!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-    
-        settingsScoller.contentSize = CGSizeMake(settingsImage.frame.size.width, settingsImage.frame.size.height)
     }
 
     override func didReceiveMemoryWarning() {
@@ -26,6 +21,10 @@ class SettingsViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func tapDoneButton(sender: AnyObject) {
+        dismissViewControllerAnimated(true, completion: nil)
+    }
+
     /*
     // MARK: - Navigation
 

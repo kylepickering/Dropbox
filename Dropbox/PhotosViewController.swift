@@ -1,5 +1,5 @@
 //
-//  SettingsViewController.swift
+//  PhotosViewController.swift
 //  Dropbox
 //
 //  Created by Kyle Pickering on 9/13/14.
@@ -8,17 +8,16 @@
 
 import UIKit
 
-class SettingsViewController: UIViewController {
+class PhotosViewController: UIViewController {
 
-    @IBOutlet weak var settingsScoller: UIScrollView!
-    @IBOutlet weak var settingsImage: UIImageView!
+    @IBOutlet weak var photoScroller: UIScrollView!
+    @IBOutlet weak var photoImage: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-    
-        settingsScoller.contentSize = CGSizeMake(settingsImage.frame.size.width, settingsImage.frame.size.height)
+        photoScroller.contentSize = CGSizeMake(photoImage.frame.size.width, photoImage.frame.size.height)
     }
 
     override func didReceiveMemoryWarning() {
@@ -26,6 +25,7 @@ class SettingsViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+
     /*
     // MARK: - Navigation
 
